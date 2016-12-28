@@ -1,0 +1,544 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?37x4pu');
+    src:    url('../fonts/icomoon.eot?37x4pu#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?37x4pu') format('truetype'),
+        url('../fonts/icomoon.woff?37x4pu') format('woff'),
+        url('../fonts/icomoon.svg?37x4pu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row {
+    max-width: 1100px !important;
+}
+
+.big_title {
+    font-size: 40px;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    line-height: 0.748;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 24px;
+}
+
+.big_title:after{
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 22px auto;
+}
+
+.under_big_title {
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+
+.small_title {
+    font-size: 24px;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.75;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 60px;
+    background-color: #87509c;
+}
+
+header nav {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';    
+}
+
+header nav ul li a {
+    color: #fff;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 0;
+}
+
+header nav ul .active {
+    background-color: #643a79;
+}
+
+header nav ul li a:hover {
+    background-color: #643a79;
+    color: #fff;
+}
+
+/* MAIN */
+
+main {
+    background-color: #87509c;
+    text-align: center;
+    color: #fff;
+    padding-top: 147px;
+}
+
+main h1 {
+    font-size: 25.829px;
+    line-height: 1.158;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    -moz-transform: matrix( 1.63235342628836,0,0,1.63235342628836,0,0);
+    -webkit-transform: matrix( 1.63235342628836,0,0,1.63235342628836,0,0);
+    -ms-transform: matrix( 1.63235342628836,0,0,1.63235342628836,0,0);
+}
+
+main button a {
+    padding: 25px 82px 22px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #eb7d4b;
+    display: inline-block;
+    color: #fff;
+    font-size: 13.403px;
+    font-weight: bold;
+    line-height: 1.455;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    border-bottom: 4px solid #c86a40;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+
+/* SERVICES */
+
+#services {
+    background-color: #17c2a4;
+    text-align: center;
+    color: #fff; 
+}
+
+#services .big_title:after {
+    background-color: #14a58c;
+}
+
+#services .under_big_title {
+    padding-bottom: 80px;
+}
+
+#services h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#services article p {
+    font-size: 16px;
+    font-family: "Titillium Web";
+    margin-bottom: 120px;
+}
+
+
+/* TEAM */
+
+#team {
+    background-color: #e7f1f8;
+    text-align: center;
+    color: #3c4761;    
+}
+
+#team .big_title:after {
+    background-color: #c8d9e5;
+}
+
+
+#team h3 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+#team h4 {
+    font-size: 16px;
+    font-family: "Titillium Web";
+    color: #48c1e9;
+    margin: 0 0 30px;
+}
+
+#team article p {
+    font-size: 16px;
+    font-family: "Titillium Web";
+}
+
+#team .social_media {
+    font-size: 32px;
+    margin-bottom: 125px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\e901";
+}
+.icon-e-mail:before {
+    content: "\e900";
+}
+.icon-twitter:before {
+    content: "\e902";
+}
+.icon-linkedin:before {
+    content: "\e903";
+}
+
+
+/* SKILLS */
+
+#skills {
+    background-color: #ffffff;
+    text-align: center;
+    color: #3c4761;  
+}
+
+#skills .big_title:after {
+    background-color: #dfe8ed;
+}
+
+#skills article h3 {
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+#skills #progressbar_webdesign, #skills #progressbar_HTML, #skills #progressbar_graphic, #skills #progressbar_UI  {
+    margin: 0px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: auto;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    background-color: #ffdd99;
+    text-align: center;
+    color: #393939;  
+}
+
+#portfolio .big_title:after {
+    background-color: #e5c37f;
+}
+
+#portfolio .under_big_title {
+    padding-bottom: 40px;
+}
+
+#portfolio .menu {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    text-align: center;
+    margin-right: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+#portfolio .menu li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 27px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: #393939;
+    background-color: #ebc985;
+}
+
+#portfolio .menu .active {
+    background-color: #ffffff;
+}
+
+#portfolio .menu li:hover {
+    background-color: #ffffff;
+    color: #393939;
+    cursor: pointer;
+}
+#portfolio h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Titillium Web";
+    margin: 30px 0 65px;
+}
+
+#portfolio button a {
+    padding: 25px 60px 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #17c2a4;
+    display: inline-block;
+    color: #fff;
+    font-size: 13.403px;
+    font-weight: bold;
+    line-height: 1.455;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    border-bottom: 4px solid #14a58c;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin-bottom: 110px;
+}
+
+#portfolio button a:hover {
+    color: #ffdd99;
+}
+
+
+/* ABOUT US */
+
+#about_us {
+    background-color: #d74680;
+    text-align: center;
+    color: #ffffff;
+}
+
+#about_us .big_title:after {
+    background-color: #b73c6d;
+}
+
+#about_us article p {
+    font-size: 17.5px;
+    font-style: italic;
+    font-family: "Titillium Web";
+    text-align: left;
+    margin: 30px 0;
+}
+
+#about_us article h3 {
+    font-size: 24px;
+    font-family: "Titillium Web";
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+}
+
+#about_us article h4 {
+    font-size: 18px;
+    font-family: "Titillium Web";
+    text-align: left;
+    color: #ffdd99;
+    margin-bottom: 130px;
+}
+
+
+/* IN TOUCH */
+
+#in_touch {
+    background-color: #3c5499;
+    text-align: center;
+    color: #ffffff;
+}
+
+#in_touch .big_title:after {
+    background-color: #273a71;
+}
+
+#in_touch input {
+    background-color: #273a71;
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    color: #fff;
+    height: 56px;
+    border-radius: 4px;
+    border-color: #273a71;
+}
+
+#in_touch label.hidden {
+    opacity: 0;
+}
+#in_touch label {
+    position: relative;
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    color: #fff;
+    opacity: 1;
+    text-align: left;
+    transition: all .1s ease !important;
+    top: -65px;
+    left: 5px;
+    width: auto;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+    -webkit-pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+/*
+
+#in_touch textarea + label, 
+#in_touch textarea + label,
+#in_touch input + label, 
+#in_touch input + label {
+    transition: all .17s ease !important;
+}
+#in_touch textarea:focus + label, 
+#in_touch textarea:active + label,
+#in_touch input:focus + label, 
+#in_touch input:active + label {
+    opacity: 0;   
+}
+*/
+
+
+#in_touch label span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#in_touch label span:after {
+    content: "*";
+    color: #ff4444;
+}
+
+/*
+#in_touch input + label:hover {
+    z-index:-1;
+    cursor: copy;
+}
+*/
+
+input[required]:valid + label {
+    display: none;
+}
+
+#in_touch textarea {
+    background-color: #273a71;
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    color: #fff;
+    height: 200px;
+    border-radius: 4px;
+    border-color: #273a71;
+    margin-top: 30px;
+}
+
+#in_touch textarea[required] + label {
+    position: absolute;
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    top: 0px;
+    left: 4px;
+    width: 100%;
+    transition: 0.5s;
+    z-index: auto;
+}
+.relative {
+    position: relative !important;
+}
+/*
+
+#in_touch textarea[required] + label:after {
+    content: "*";
+    color: #ff4444;
+}
+*/
+/*
+
+#in_touch textarea[required] + label:hover {
+    z-index:-1;
+    cursor: copy;
+}
+*/
+
+textarea[required]:valid + label {
+    display: none;
+}
+
+#in_touch button a {
+    padding: 25px 85px 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #30bae7;
+    display: inline-block;
+    color: #fff;
+    font-size: 13.403px;
+    font-weight: bold;
+    line-height: 1.455;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    border-bottom: 4px solid #299ec5;
+    border-radius: 4px;
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+
+#in_touch button a:hover {
+    color: #3c5499;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #344b8e;
+    height: 110px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    padding: 30px;
+}
+
+footer .facebook:hover {
+    color: #425F9C;
+}
+
+footer ul li .twitter:hover {
+    color: #0084B4;
+}
+
+footer .google:hover {
+    color: #DB4437;
+}
+
+footer ul li .linkedin:hover {
+    color: #0A7485;
+}
+
+footer ul li .behance:hover {
+    color: #131418;
+}
+
+footer ul li .dribble:hover {
+    color: #333;
+}
+
+footer ul li .github:hover {
+    color: #0D2636;
+}
+
+
+
+

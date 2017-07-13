@@ -10,7 +10,7 @@ var app = {
         for(i; i < ellenght; i ++) {
             var elObj = element[i];
             element[i].onkeydown = function(e){
-                dupa(this.value, e);
+                elValue(this.value, e);
             }
             element[i].onkeyup = function(e){
                 dupa(this.value, e);

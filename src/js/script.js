@@ -19,9 +19,6 @@ var app = {
         var label,
             tVal,
             ourLabel;
-        
-        function dupa(thatvalue, event) {
-            tVal = thatvalue.length;
             
             
         var tclass = document.getElementsByClassName('textarea'),

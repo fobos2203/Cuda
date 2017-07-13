@@ -10,17 +10,18 @@ var app = {
         for(i; i < ellenght; i ++) {
             var elObj = element[i];
             element[i].onkeydown = function(e){
-                dupa(this.value, e);
+                elVal(this.value, e);
             }
             element[i].onkeyup = function(e){
-                dupa(this.value, e);
+                elVal(this.value, e);
             }
         }
+        
         var label,
             tVal,
             ourLabel;
         
-        function dupa(thatvalue, event) {
+        function elVal(thatvalue, event) {
             tVal = thatvalue.length;
             
             

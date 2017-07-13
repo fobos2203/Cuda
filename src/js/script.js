@@ -13,7 +13,7 @@ var app = {
                 elValue(this.value, e);
             }
             element[i].onkeyup = function(e){
-                dupa(this.value, e);
+                elValue(this.value, e);
             }
         }
         var label,

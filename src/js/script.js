@@ -10,19 +10,29 @@ var app = {
         for(i; i < ellenght; i ++) {
             var elObj = element[i];
             element[i].onkeydown = function(e){
+<<<<<<< HEAD
                 elVal(this.value, e);
             }
             element[i].onkeyup = function(e){
                 elVal(this.value, e);
+=======
+                elValue(this.value, e);
+            }
+            element[i].onkeyup = function(e){
+                elValue(this.value, e);
+>>>>>>> origin/master
             }
         }
         
         var label,
             tVal,
             ourLabel;
+<<<<<<< HEAD
         
         function elVal(thatvalue, event) {
             tVal = thatvalue.length;
+=======
+>>>>>>> origin/master
             
             
         var tclass = document.getElementsByClassName('textarea'),
